@@ -13,7 +13,7 @@ The **To-Do List Management App** is a feature-rich application designed to help
 
 ### Task Management
 - **Create Tasks**: Users can add new tasks with attributes such as title, description, status, priority, and due date.
-- **Edit Tasks**: Modify task details in real time with an intuitive form-based interface.
+- **Edit Tasks**: Modify task details in real-time with an intuitive form-based interface.
 - **Delete Tasks**: Remove tasks permanently.
 
 ### Empty State Handling
@@ -109,21 +109,26 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-repository-url.git
+git clone https://github.com/kusumanth7329/Task-it-management-app.git
 ```
 
 2. Navigate to the project folder:
 ```
-cd taskit
+cd Task-it-management-app
 ```
 
 3. Install dependencies for both the front-end and back-end:
 ```
 # Back-end
+#unzip the backend file
+unzip backend.zip -d backend
+#navigate to the zip file and install
 cd backend
 npm install
 
 # Front-end
+#unzip the backend file
+unzip frontend.zip -d frontend
 cd ../frontend
 npm install
 ```
@@ -131,13 +136,16 @@ npm install
 ## Running the Application
 
 1. start the back-end server:
+```
 cd backend
 npm start
+```
 
-2. In a separate terminal, start the front-end application:
+3. In a separate terminal, start the front-end application:
+```
 cd frontend
 npm start
-
+```
 
 ## Development
 
